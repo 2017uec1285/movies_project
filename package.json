@@ -1,0 +1,37 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --maxWorkers=1",
+    "start":"node index.js"
+  },
+  "engines": {
+    "node": "12.14.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^3.22.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.13",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
